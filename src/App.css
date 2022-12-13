@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  font-size: 2em;
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+}
+
+li {
+  margin: 0 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#show_img{
+  height: 250px;
+  width: 250px;
+}
+
+#weather_img{
+  height: 100px;
+  width: 100px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.weather-container {
+  padding: 30px;
+  margin: 30px 0px;
+  border: 0px solid #ccc;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+
+.change_degree{
+  background-color: #2947B6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: min-content;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
