@@ -1,4 +1,4 @@
-# A00465022_react-assignment
+# react-assignment
 
 This assignment contains two pages
 * About_me - Information about me with avatar
